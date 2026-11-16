@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "zyroofficial",
+	"version": "${version}",
+	"name": "Zyroofficial Mod",
+	"description": "Money tracker, auction tracker, profit HUD and popup alerts with a premium settings interface. Client-side only.",
+	"authors": [
+		"Zyroofficial"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.zyroofficial.ZyroofficialClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
